@@ -15,8 +15,8 @@ function App() {
         <div className="relative">
             <div className="profile flex flex-col justify-center items-center gap-y-4 relative">
                 <img src={logo} alt="Profile" id="profile__img"/>
-                <img src={share} alt="Share" id="avatar_share" className="absolute right-0 top-10"/>
-                <img src={avatar} alt="Profile" id="profile__img" className="absolute right-0 top-10"/>
+                <img src={share} alt="Share" id="avatar_share" className="absolute right-0 top-10 hidden sm:block"/>
+                <img src={avatar} alt="Profile" id="profile__img" className="absolute right-0 top-10 sm:hidden"/>
                 <div id="twitter">
                     <h3> Ogo Meninwa </h3>
                 </div>
