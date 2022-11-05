@@ -4,7 +4,7 @@ import './contact.css'
 import zuri from './images/Zuri.Internship_Logo.svg'
 import ingressive from './images/I4G.svg'
 
-function Contact (props) {
+function Contact () {
   return (
     <div className="app">
     <form action="#">
