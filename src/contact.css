@@ -1,0 +1,127 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    
+  }
+
+  .content {
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    /* padding-bottom: 100px; */
+  }
+
+  .content h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .fullname {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .name, .email, .message {
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #344054
+  }
+
+  #firstname, #lastname {
+    padding: 8px 8px 8px 15px;
+    width: 300px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #667085;
+  }
+
+  #email {
+    padding: 8px 8px 8px 15px;
+    width: 675px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #667085;
+  }
+
+  #message {
+    padding: 15px 8px 8px 15px;
+    width: 675px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #667085;
+  }
+
+  .agreement {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px 0 40px 0;
+  }
+
+  .agreemt {
+    color: #475467;
+  }
+
+  #send {
+    padding: 15px;
+    width: 700px;
+    border: 1px solid #1570EF;
+    border-radius: 8px;
+    background-color: #1570EF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 100px;
+  }
+
+  p {
+    padding-bottom: 30px;
+  }
+
+  .footer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 30px 150px 80px 150px;
+    height: 200px;
+
+  }
+
+  hr {
+    margin: 0 150px;
+    border: 1px solid #cfcaca;
+  }
+
+  span {
+    font-size: 14px;
+    padding: 5px;
+    color: red;
+  }
