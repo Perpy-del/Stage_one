@@ -46,7 +46,7 @@ body {
     color: #344054
   }
 
-  #firstname, #lastname {
+  #first_name, #last_name {
     padding: 8px 8px 8px 15px;
     width: 300px;
     border: 1px solid #D0D5DD;
@@ -87,7 +87,7 @@ body {
     color: #475467;
   }
 
-  #send {
+  #btn__submit {
     padding: 15px;
     width: 700px;
     border: 1px solid #1570EF;

@@ -18,7 +18,7 @@ function Contact () {
                   <label for="firstname"> First name </label>
                 </div>
                 <div> 
-                  <input type="text" placeholder="Enter your first name" id="firstname" /> 
+                  <input type="text" placeholder="Enter your first name" id="first_name" /> 
                 </div>
               </div>
 
@@ -27,7 +27,7 @@ function Contact () {
                   <label for="lastname"> Last name </label>
                 </div>
                 <div> 
-                  <input type="text" placeholder="Enter your last name" id="lastname" /> 
+                  <input type="text" placeholder="Enter your last name" id="last_name" /> 
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ function Contact () {
               <button
                 type="button"
                 name="send"
-                id="send"
+                id="btn__submit"
               > Send Message </button>
             </div>
         </div>
