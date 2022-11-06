@@ -15,7 +15,7 @@ function Contact () {
             <div className="fullname">
               <div>
                 <div className="name">
-                  <label for="firstname"> First name </label>
+                  <label htmlFor="first_name"> First name </label>
                 </div>
                 <div> 
                   <input type="text" placeholder="Enter your first name" id="first_name" /> 
@@ -24,7 +24,7 @@ function Contact () {
 
               <div>
                 <div className="name">
-                  <label for="lastname"> Last name </label>
+                  <label htmlFor="last_name"> Last name </label>
                 </div>
                 <div> 
                   <input type="text" placeholder="Enter your last name" id="last_name" /> 
@@ -34,7 +34,7 @@ function Contact () {
 
             <div>
               <div className="email">
-                <label for="email"> Email </label>
+                <label htmlFor="email"> Email </label>
               </div>
               <div> 
                 <input type="email" placeholder="yourname@email.com" id="email" /> 
@@ -43,7 +43,7 @@ function Contact () {
 
             <div>
               <div className="message">
-                <label for="message"> Message </label>
+                <label htmlFor="message"> Message </label>
               </div>
               <div> 
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea> 
@@ -52,7 +52,7 @@ function Contact () {
             <div className="agreement">
               <input type="checkbox" id="agreement" required="required" />
               <div className="agreemt">
-                <label for="agreement">
+                <label htmlFor="agreement">
                 You agree to providing your data to Perpetual who may contact you
                 </label>
               </div>
