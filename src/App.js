@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./Home"
-import Contact from './Contact';
+import Contact from './contact';
 
 function App() {
   return (

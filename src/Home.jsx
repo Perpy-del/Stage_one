@@ -94,31 +94,23 @@ const Home = () => {
             >
               Design Books
             </a>
-            <a
-              href="/contact"
-              rel="noopener noreferrer"
-              target="_blank"
-              id="btn_submit"
-              className="bg-gray-200 text-center py-4 mt-3 rounded-lg font-Inter hover:bg-gray-300"
-            >
-              {/* Endpoint to route to contact component */}
-              <Link to="Contact">
+            
+            <Link to="contact" id="btn_submit" rel="noopener noreferrer"
+              target="_blank" className="bg-gray-200 text-center py-4 mt-3 rounded-lg font-Inter hover:bg-gray-300">
               Contact Me</Link>
-            </a>
+
           </div>
         </div>
       </section>
 
-      <section>
         <div className="flex justify-center items-center">
-          <div class="content">
+          <div className="flex justify-center items-center">
             <div className="flex justify-center items-center gap-x-6 mt-8">
               <img src={slack} alt="slack" />
               <img src={gh} alt="github" />
             </div>
           </div>
         </div>
-      </section>
 
       <footer class="zuri">
         <div class="container">
