@@ -5,6 +5,7 @@ import zuri from './images/Zuri.Internship_Logo.svg'
 import ingressive from './images/I4G.svg'
 
 function Contact () {
+  const name = "Perpetual"
   return (
     <div className="app">
     <form action="#">
@@ -53,7 +54,7 @@ function Contact () {
               <input type="checkbox" id="agreement" required="required" />
               <div className="agreemt">
                 <label htmlFor="agreement">
-                You agree to providing your data to Perpetual who may contact you
+                You agree to providing your data to {name} who may contact you
                 </label>
               </div>
             </div>

@@ -95,8 +95,7 @@ const Home = () => {
               Design Books
             </a>
             
-            <Link to="contact" id="btn_submit" rel="noopener noreferrer"
-              target="_blank" className="bg-gray-200 text-center py-4 mt-3 rounded-lg font-Inter hover:bg-gray-300">
+            <Link to="/contact" id="contact" className="bg-gray-200 text-center py-4 mt-3 rounded-lg font-Inter hover:bg-gray-300">
               Contact Me</Link>
 
           </div>
